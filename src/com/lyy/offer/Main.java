@@ -1,6 +1,6 @@
-package com.lyy.office;
+package com.lyy.offer;
 
-import com.lyy.office.p012.Solution;
+import com.lyy.offer.p012.Solution;
 
 public class Main {
     public static void main(String[] args) {

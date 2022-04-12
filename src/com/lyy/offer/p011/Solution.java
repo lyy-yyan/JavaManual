@@ -1,4 +1,4 @@
-package com.lyy.office.p011;
+package com.lyy.offer.p011;
 /*
 测试样例:
 输入：[3,4,5,1,2]

@@ -1,4 +1,4 @@
-package com.lyy.office.p012;
+package com.lyy.offer.p012;
 
 public class Solution {
     public static int[][] book = new int[200][200];
