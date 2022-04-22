@@ -27,32 +27,32 @@ public class DemoDijkstra {
         Scanner in = new Scanner(System.in);
 
         //读入图：使用邻接矩阵
-        initMap(map);
-        int vNum = in.nextInt();
-        int eNum = in.nextInt();
-        for (int i = 0; i < eNum; i++) {
-            map[in.nextInt()][in.nextInt()] = in.nextInt();
-        }
-
-        //若用邻接表的方式来存储图，即节省了空间，又降低了遍历时间复杂度
-//        initArray(mapAL);
-//        // mapAL[0] = U
-//        // mapAL[1] = V
-//        // mapAL[2] = W
-//        // mapAL[3] = first
-//        // mapAL[4] = next
+//        initMap(map);
 //        int vNum = in.nextInt();
 //        int eNum = in.nextInt();
-//        for (int i = 1; i <= vNum; i++) {
-//            mapAL[3][i] = -1;
+//        for (int i = 0; i < eNum; i++) {
+//            map[in.nextInt()][in.nextInt()] = in.nextInt();
 //        }
-//        for (int i = 1; i <= eNum; i++) {
-//            mapAL[0][i] = in.nextInt();
-//            mapAL[1][i] = in.nextInt();
-//            mapAL[2][i] = in.nextInt();
-//            mapAL[4][i] = mapAL[3][mapAL[0][i]];
-//            mapAL[3][mapAL[0][i]] = i;
-//        }
+
+        //若用邻接表的方式来存储图，即节省了空间，又降低了遍历时间复杂度
+        initArray(mapAL);
+        // mapAL[0] = U
+        // mapAL[1] = V
+        // mapAL[2] = W
+        // mapAL[3] = first
+        // mapAL[4] = next
+        int vNum = in.nextInt();
+        int eNum = in.nextInt();
+        for (int i = 1; i <= vNum; i++) {
+            mapAL[3][i] = -1;
+        }
+        for (int i = 1; i <= eNum; i++) {
+            mapAL[0][i] = in.nextInt();
+            mapAL[1][i] = in.nextInt();
+            mapAL[2][i] = in.nextInt();
+            mapAL[4][i] = mapAL[3][mapAL[0][i]];
+            mapAL[3][mapAL[0][i]] = i;
+        }
 
         in.close();
 //        printMap(map, vNum);
