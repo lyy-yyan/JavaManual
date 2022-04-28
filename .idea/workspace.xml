@@ -52,27 +52,13 @@
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/com/lyy/book/aha/chapterFive" />
-    <property name="node.js.detected.package.eslint" value="true" />
-    <property name="node.js.detected.package.tslint" value="true" />
-    <property name="node.js.path.for.package.eslint" value="project" />
-    <property name="node.js.path.for.package.tslint" value="project" />
-    <property name="node.js.selected.package.eslint" value="(autodetect)" />
-    <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
-    <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="settings.github" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
+  }
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\lyy_Project\src\com\lyy\book\aha\chapterFive" />
@@ -85,7 +71,7 @@
       <recent name="com.lyy.book.base.testStream" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DfsFindShortestPath">
+  <component name="RunManager" selected="应用程序.Dfs1">
     <configuration name="Dfs1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.lyy.book.aha.chapterOne.chapterFour.Dfs1" />
       <module name="lyy_Project" />
@@ -151,15 +137,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.DfsFindShortestPath" />
-        <item itemvalue="Application.HashMapTest" />
-        <item itemvalue="Application.Dfs1" />
-        <item itemvalue="Application.TestDate" />
-        <item itemvalue="Application.TestFunction" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -283,121 +260,12 @@
         </entry>
       </map>
     </option>
-    <option name="OPEN_TABS">
-      <set>
-        <option value="1" />
-      </set>
-    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First commit." />
     <MESSAGE value="First commit all." />
     <MESSAGE value="Alter the name of the file." />
     <option name="LAST_COMMIT_MESSAGE" value="Alter the name of the file." />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="630" y="109" key="#Notifications" timestamp="1649774529017">
-      <screen x="0" y="0" width="1644" height="1067" />
-    </state>
-    <state x="630" y="109" key="#Notifications/0.0.1644.1067@0.0.1644.1067" timestamp="1649774529017" />
-    <state x="923" y="163" key="#com.intellij.ide.util.MemberChooser" timestamp="1646559119260">
-      <screen x="0" y="0" width="1644" height="1067" />
-    </state>
-    <state x="923" y="163" key="#com.intellij.ide.util.MemberChooser/0.0.1644.1067@0.0.1644.1067" timestamp="1646559119260" />
-    <state x="955" y="399" width="532" height="281" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1648536697659">
-      <screen x="0" y="0" width="1644" height="1067" />
-    </state>
-    <state x="955" y="399" width="532" height="281" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1644.1067@0.0.1644.1067" timestamp="1648536697659" />
-    <state x="906" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1646558833332">
-      <screen x="0" y="0" width="1644" height="1067" />
-    </state>
-    <state x="906" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1644.1067@0.0.1644.1067" timestamp="1646558833332" />
-    <state x="118" y="58" key="CommitChangelistDialog2" timestamp="1649774035360">
-      <screen x="0" y="0" width="1644" height="1067" />
-    </state>
-    <state x="118" y="58" key="CommitChangelistDialog2/0.0.1644.1067@0.0.1644.1067" timestamp="1649774035360" />
-    <state x="158" y="95" key="DiffContextDialog" timestamp="1649773271146">
-      <screen x="0" y="0" width="1644" height="1067" />
-    </state>
-    <state x="158" y="95" key="DiffContextDialog/0.0.1644.1067@0.0.1644.1067" timestamp="1649773271146" />
-    <state x="606" y="232" key="FileChooserDialogImpl" timestamp="1649774742361">
-      <screen x="0" y="0" width="1644" height="1067" />
-    </state>
-    <state x="605" y="232" key="FileChooserDialogImpl/0.0.1641.1067@0.0.1641.1067" timestamp="1642246046816" />
-    <state x="606" y="232" key="FileChooserDialogImpl/0.0.1644.1067@0.0.1644.1067" timestamp="1649774742361" />
-    <state width="1591" height="265" key="GridCell.Tab.0.bottom" timestamp="1649665539536">
-      <screen x="0" y="0" width="1644" height="1067" />
-    </state>
-    <state width="766" height="203" key="GridCell.Tab.0.bottom/0.0.1641.1067@0.0.1641.1067" timestamp="1642595560321" />
-    <state width="1591" height="265" key="GridCell.Tab.0.bottom/0.0.1644.1067@0.0.1644.1067" timestamp="1649665539536" />
-    <state width="1591" height="265" key="GridCell.Tab.0.center" timestamp="1649665539536">
-      <screen x="0" y="0" width="1644" height="1067" />
-    </state>
-    <state width="766" height="203" key="GridCell.Tab.0.center/0.0.1641.1067@0.0.1641.1067" timestamp="1642595560321" />
-    <state width="1591" height="265" key="GridCell.Tab.0.center/0.0.1644.1067@0.0.1644.1067" timestamp="1649665539536" />
-    <state width="1591" height="265" key="GridCell.Tab.0.left" timestamp="1649665539536">
-      <screen x="0" y="0" width="1644" height="1067" />
-    </state>
-    <state width="766" height="203" key="GridCell.Tab.0.left/0.0.1641.1067@0.0.1641.1067" timestamp="1642595560321" />
-    <state width="1591" height="265" key="GridCell.Tab.0.left/0.0.1644.1067@0.0.1644.1067" timestamp="1649665539536" />
-    <state width="1591" height="265" key="GridCell.Tab.0.right" timestamp="1649665539536">
-      <screen x="0" y="0" width="1644" height="1067" />
-    </state>
-    <state width="766" height="203" key="GridCell.Tab.0.right/0.0.1641.1067@0.0.1641.1067" timestamp="1642595560321" />
-    <state width="1591" height="265" key="GridCell.Tab.0.right/0.0.1644.1067@0.0.1644.1067" timestamp="1649665539536" />
-    <state width="1590" height="376" key="GridCell.Tab.1.bottom" timestamp="1648545311267">
-      <screen x="0" y="0" width="1644" height="1067" />
-    </state>
-    <state width="1587" height="251" key="GridCell.Tab.1.bottom/0.0.1641.1067@0.0.1641.1067" timestamp="1642495956475" />
-    <state width="1590" height="376" key="GridCell.Tab.1.bottom/0.0.1644.1067@0.0.1644.1067" timestamp="1648545311267" />
-    <state width="1590" height="376" key="GridCell.Tab.1.center" timestamp="1648545311267">
-      <screen x="0" y="0" width="1644" height="1067" />
-    </state>
-    <state width="1587" height="251" key="GridCell.Tab.1.center/0.0.1641.1067@0.0.1641.1067" timestamp="1642495956474" />
-    <state width="1590" height="376" key="GridCell.Tab.1.center/0.0.1644.1067@0.0.1644.1067" timestamp="1648545311267" />
-    <state width="1590" height="376" key="GridCell.Tab.1.left" timestamp="1648545311267">
-      <screen x="0" y="0" width="1644" height="1067" />
-    </state>
-    <state width="1587" height="251" key="GridCell.Tab.1.left/0.0.1641.1067@0.0.1641.1067" timestamp="1642495956474" />
-    <state width="1590" height="376" key="GridCell.Tab.1.left/0.0.1644.1067@0.0.1644.1067" timestamp="1648545311267" />
-    <state width="1590" height="376" key="GridCell.Tab.1.right" timestamp="1648545311267">
-      <screen x="0" y="0" width="1644" height="1067" />
-    </state>
-    <state width="1587" height="251" key="GridCell.Tab.1.right/0.0.1641.1067@0.0.1641.1067" timestamp="1642495956475" />
-    <state width="1590" height="376" key="GridCell.Tab.1.right/0.0.1644.1067@0.0.1644.1067" timestamp="1648545311267" />
-    <state x="372" y="145" key="SettingsEditor" timestamp="1649773053651">
-      <screen x="0" y="0" width="1644" height="1067" />
-    </state>
-    <state x="135" y="95" key="SettingsEditor/0.0.1641.1067@0.0.1641.1067" timestamp="1642316966755" />
-    <state x="372" y="145" key="SettingsEditor/0.0.1644.1067@0.0.1644.1067" timestamp="1649773053651" />
-    <state x="315" y="202" key="Vcs.Push.Dialog.v2" timestamp="1649774115098">
-      <screen x="0" y="0" width="1644" height="1067" />
-    </state>
-    <state x="315" y="202" key="Vcs.Push.Dialog.v2/0.0.1644.1067@0.0.1644.1067" timestamp="1649774115098" />
-    <state x="516" y="362" key="com.intellij.ide.util.TipDialog" timestamp="1642334903853">
-      <screen x="0" y="0" width="1641" height="1067" />
-    </state>
-    <state x="516" y="362" key="com.intellij.ide.util.TipDialog/0.0.1641.1067@0.0.1641.1067" timestamp="1642334903853" />
-    <state x="583" y="431" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1649773956557">
-      <screen x="0" y="0" width="1644" height="1067" />
-    </state>
-    <state x="583" y="431" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1644.1067@0.0.1644.1067" timestamp="1649773956557" />
-    <state x="0" y="0" width="939" height="1067" key="find.popup" timestamp="1642323633919">
-      <screen x="0" y="0" width="1641" height="1067" />
-    </state>
-    <state x="0" y="0" width="939" height="1067" key="find.popup/0.0.1641.1067@0.0.1641.1067" timestamp="1642323633919" />
-    <state x="579" y="280" key="git4idea.merge.GitMergeDialog" timestamp="1649774632551">
-      <screen x="0" y="0" width="1644" height="1067" />
-    </state>
-    <state x="579" y="280" key="git4idea.merge.GitMergeDialog/0.0.1644.1067@0.0.1644.1067" timestamp="1649774632551" />
-    <state x="414" y="134" width="874" height="844" key="org.intellij.images.editor.actions.BackgroundImageDialog" timestamp="1642246127144">
-      <screen x="0" y="0" width="1641" height="1067" />
-    </state>
-    <state x="414" y="134" width="874" height="844" key="org.intellij.images.editor.actions.BackgroundImageDialog/0.0.1641.1067@0.0.1641.1067" timestamp="1642246127144" />
-    <state x="809" y="32" width="840" height="1034" key="search.everywhere.popup" timestamp="1642488338437">
-      <screen x="0" y="0" width="1641" height="1067" />
-    </state>
-    <state x="809" y="32" width="840" height="1034" key="search.everywhere.popup/0.0.1641.1067@0.0.1641.1067" timestamp="1642488338437" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
