@@ -1,6 +1,5 @@
-package com.lyy.book.aha.chapterEight;
+package com.lyy.book.aha.chapterEight.kruskal;
 
-import java.util.Arrays;
 import java.util.Scanner;
 
 /*
