@@ -1,4 +1,4 @@
-package exercise.leetcode.offer.P006;
+package com.lyy.exercise.offer.P006;
 
 public class ListNode {
     int val;

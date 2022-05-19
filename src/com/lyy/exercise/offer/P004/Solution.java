@@ -1,4 +1,4 @@
-package exercise.leetcode.offer.P004;
+package com.lyy.exercise.offer.P004;
 
 import java.util.Scanner;
 

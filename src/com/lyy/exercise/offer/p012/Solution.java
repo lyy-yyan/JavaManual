@@ -1,4 +1,4 @@
-package com.lyy.offer.p012;
+package com.lyy.exercise.offer.p012;
 
 public class Solution {
     public static int[][] book = new int[200][200];
@@ -52,36 +52,6 @@ public class Solution {
                 dfs(board, i-1, j, word, rightNums+1);
                 book[i-1][j] = 0;
             }
-            return;
         }
     }
 }
-
-//题解
-/*
-class Solution {
-    public boolean exist(char[][] board, String word) {
-        char[] words = word.toCharArray();
-        for(int i = 0; i < board.length; i++) {
-            for(int j = 0; j < board[0].length; j++) {
-                if(dfs(board, words, i, j, 0)) return true;
-            }
-        }
-        return false;
-    }
-    boolean dfs(char[][] board, char[] word, int i, int j, int k) {
-        if(i >= board.length || i < 0 || j >= board[0].length || j < 0 || board[i][j] != word[k]) return false;
-        if(k == word.length - 1) return true;
-        board[i][j] = '\0';
-        boolean res = dfs(board, word, i + 1, j, k + 1) || dfs(board, word, i - 1, j, k + 1) ||
-                      dfs(board, word, i, j + 1, k + 1) || dfs(board, word, i , j - 1, k + 1);
-        board[i][j] = word[k];
-        return res;
-    }
-}
-
-作者：jyd
-链接：https://leetcode-cn.com/problems/ju-zhen-zhong-de-lu-jing-lcof/solution/mian-shi-ti-12-ju-zhen-zhong-de-lu-jing-shen-du-yo/
-来源：力扣（LeetCode）
-著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
- */

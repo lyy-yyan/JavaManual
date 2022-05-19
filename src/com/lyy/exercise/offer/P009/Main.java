@@ -1,4 +1,4 @@
-package exercise.leetcode.offer.P009;
+package com.lyy.exercise.offer.P009;
 
 public class Main {
     public static void main(String[] args) {

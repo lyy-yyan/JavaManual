@@ -1,4 +1,4 @@
-package exercise.leetcode.offer.P007;
+package com.lyy.exercise.offer.P007;
 
 import java.util.*;
 
@@ -12,24 +12,13 @@ import java.util.*;
  * }
  */
 
-/*
-题目限制：0 <= 节点个数 <= 5000
-测试样例
-Input: preorder = [3,9,20,15,7], inorder = [9,3,15,20,7]
-Output: [3,9,20,null,null,15,7]
-
-Input: preorder = [-1], inorder = [-1]
-Output: [-1]
- */
-
 public class Solution {
     public static void main(String[] args) {
         int[] preorder = {3, 9, 20, 15, 7};
         int[] inorder = {9, 3, 15, 20, 7};
         Solution ob = new Solution();
-        TreeNode head = ob.buildTree(preorder, inorder);
 
-        TreeNode father = head;
+        TreeNode father = ob.buildTree(preorder, inorder);
 //        head.left = new TreeNode();
 //        head.right = new TreeNode();
 //        TreeNode leftSon = head.left;
@@ -45,10 +34,8 @@ public class Solution {
         //二叉树的层序遍历：使用队列，将节点压入队列判断队列是否为空
         //前序遍历、中序遍历以及后序遍历，递归实现，只需在前输出val，中间输出val，最后输出val
         //JAVA中使用Queue，要使用LinkedList，Queue并没直接实现队列的接口，但是LinkedList有实现，Stack并不用
-        Queue<TreeNode> queue = new LinkedList<TreeNode>();
-        if (father != null) {
-            queue.offer(father);
-        }
+        Queue<TreeNode> queue = new LinkedList<>();
+        queue.offer(father);
         while (!queue.isEmpty()) {
             TreeNode nowNode = queue.peek();
             System.out.print(nowNode.val + " ");
@@ -74,7 +61,7 @@ public class Solution {
         //得到节点长度
         int n = preorder.length;
         //构造中序遍历的哈希映射
-        map = new HashMap<Integer, Integer>();
+        map = new HashMap<>();
         for (int i = 0; i < n; i++) {
             map.put(inorder[i], i);
         }
@@ -86,10 +73,9 @@ public class Solution {
             return null;
         }
 
-        int pre_root = pre_left;
         //在中序遍历中找到根节点
-        int in_root = map.get(preorder[pre_root]);
-        TreeNode root = new TreeNode(preorder[pre_root]);
+        int in_root = map.get(preorder[pre_left]);
+        TreeNode root = new TreeNode(preorder[pre_left]);
         //构造左子树
         int size_left = in_root - in_left;
         root.left = myRecursionBuildTree(preorder, inorder, pre_left+1, pre_left+size_left, in_left, in_root-1);

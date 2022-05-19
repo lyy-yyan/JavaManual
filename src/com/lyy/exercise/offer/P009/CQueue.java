@@ -1,4 +1,4 @@
-package exercise.leetcode.offer.P009;
+package com.lyy.exercise.offer.P009;
 
 import java.util.Stack;
 
@@ -12,12 +12,12 @@ import java.util.Stack;
 public class CQueue {
 
     //双栈实现队列
-    private Stack<Integer> inputStack;
-    private Stack<Integer> outputStack;
+    private final Stack<Integer> inputStack;
+    private final Stack<Integer> outputStack;
 
     public CQueue() {
-        this.inputStack  = new Stack<Integer>();
-        this.outputStack  = new Stack<Integer>();
+        this.inputStack  = new Stack<>();
+        this.outputStack  = new Stack<>();
     }
 
     //队列插入元素即推入插入栈即可

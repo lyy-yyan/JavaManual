@@ -1,4 +1,4 @@
-package exercise.leetcode.offer.P010_1;
+package com.lyy.exercise.offer.P010_1;
 
 /*
 写一个函数，输入 n ，求斐波那契（Fibonacci）数列的第 n 项（即 F(N)）
@@ -18,7 +18,7 @@ public class Solution {
     static final int MOD = 1000000007;
     public int fib(int n) {
         if (n == 0||n == 1) return n;
-        int x1 = 0;
+        int x1;
         int x2 = 0;
         int ans = 1;
         for (int i = 1; i < n; i++) {

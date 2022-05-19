@@ -1,4 +1,4 @@
-package exercise.leetcode.offer.P006;
+package com.lyy.exercise.offer.P006;
 
 import java.util.Scanner;
 import java.util.Stack;
@@ -47,33 +47,18 @@ public class Solution {
     }
 
     //本人写的
-//    public int[] reversePrint(ListNode head) {
-//        int count = 0;
-//        for (ListNode nowNode = head; nowNode != null; nowNode = nowNode.next) {
-//            count ++;
-//        }
-//        int[] nums = new int[count];
-//        ListNode nowNode = head;
-//        for (int i = count-1; i >= 0; i--) {
-//            nums[i] = nowNode.val;
-//            nowNode = nowNode.next;
-//        }
-//        return nums;
-//    }
-
-    //官方题解写的，利用栈完成倒置
     public int[] reversePrint(ListNode head) {
-        Stack<ListNode> stack = new Stack<ListNode>();
-        ListNode nowNode = head;
-        while (nowNode != null) {
-            stack.push(nowNode);
-            nowNode = nowNode.next;
+        int count = 0;
+        for (ListNode nowNode = head; nowNode != null; nowNode = nowNode.next) {
+            count ++;
         }
-        int size = stack.size();
-        int[] nums = new int[size];
-        for (int i = 0; i < size; i++) {
-            nums[i] = stack.pop().val;
+        int[] nums = new int[count];
+        ListNode nowNode = head;
+        for (int i = count-1; i >= 0; i--) {
+            nums[i] = nowNode.val;
+            nowNode = nowNode.next;
         }
         return nums;
     }
+
 }

@@ -1,4 +1,4 @@
-package exercise.leetcode.offer.P003;
+package com.lyy.exercise.offer.P003;
 
 import java.util.HashSet;
 import java.util.Scanner;
@@ -18,8 +18,9 @@ public class Solution {
         in.close();
     }
 
+    // 优化后
     public int findRepeatNumber(int[] nums) {
-        Set<Integer> set = new HashSet<Integer>();
+        Set<Integer> set = new HashSet<>();
         int repeat = -1;
         for (int num : nums) {
             /*
@@ -35,6 +36,7 @@ public class Solution {
         return repeat;
     }
 
+    // 首次提交
 //    public int findRepeatNumber(int[] nums) {
 //        int[] everyNum = new int[100010];
 //        for (int i = 0; i < everyNum.length; i++) {

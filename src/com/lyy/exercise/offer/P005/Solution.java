@@ -1,4 +1,4 @@
-package exercise.leetcode.offer.P005;
+package com.lyy.exercise.offer.P005;
 
 import java.util.Scanner;
 
@@ -39,7 +39,6 @@ public class Solution {
 //        }
         //将一个字符数组转换为String，可以在String构造函数处直接转换，如下：
         //String ans = new String(char数组, 开始位置, 长度);
-        String ans = new String(charS, 0, size);
-        return ans;
+        return new String(charS, 0, size);
     }
 }
