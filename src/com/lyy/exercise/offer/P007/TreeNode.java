@@ -1,4 +1,4 @@
-package exercise.leetcode.offer.P007;
+package com.lyy.exercise.offer.P007;
 
 public class TreeNode {
     int val;

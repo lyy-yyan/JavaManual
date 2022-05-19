@@ -1,8 +1,10 @@
 package com.test;
 
 import org.junit.Test;
+import com.test.MethodJunit;
 
-import static org.junit.Assert.assertEquals;
+import static junit.framework.TestCase.assertEquals;
+
 
 public class TestJunit {
     //测试方法必须有@test；
@@ -14,7 +16,7 @@ public class TestJunit {
     @Test
     public void testAdd(){
 
-        assertEquals(4, new MethodJunit().add(3, 0));
+        assertEquals(3, new MethodJunit().add(3, 0));
     }
 
     @Test
@@ -28,7 +30,5 @@ public class TestJunit {
     }
 
     @Test
-    public void testDivision(){
-        assertEquals(5, new MethodJunit().division(6, 1));
-    }
+    public void testDivision(){ assertEquals(6, new MethodJunit().division(6, 1));}
 }

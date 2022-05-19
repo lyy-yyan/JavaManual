@@ -1,4 +1,4 @@
-package exercise.leetcode.offer.P010_2;
+package com.lyy.exercise.offer.P010_2;
 
 public class Solution {
 
