@@ -1,4 +1,4 @@
-package com.lyy.exercise.offer.p012;
+package com.lyy.exercise.offer.P012;
 
 public class Solution {
     public static int[][] book = new int[200][200];

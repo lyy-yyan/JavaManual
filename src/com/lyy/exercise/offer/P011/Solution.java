@@ -1,4 +1,4 @@
-package com.lyy.exercise.offer.p011;
+package com.lyy.exercise.offer.P011;
 public class Solution {
     //个人思路：只要有数字＜前一个数字，那么这个数字就是最小的，是旋转一次前的第一个数字
 //    public int minArray(int[] numbers) {
