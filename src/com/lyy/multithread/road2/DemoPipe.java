@@ -1,4 +1,4 @@
-package com.lyy.multithread;
+package com.lyy.multithread.road2;
 
 import java.io.IOException;
 import java.io.PipedReader;
@@ -6,7 +6,7 @@ import java.io.PipedWriter;
 
 public class DemoPipe {
     static class ReaderThread implements Runnable {
-        private PipedReader reader;
+        private final PipedReader reader;
 
         public ReaderThread(PipedReader reader) {
             this.reader = reader;
@@ -15,7 +15,7 @@ public class DemoPipe {
         @Override
         public void run() {
             System.out.println("this is reader.");
-            int receive = 0;
+            int receive;
             try {
                 while ((receive = reader.read()) != -1) {
                     System.out.print((char) receive);
@@ -27,7 +27,7 @@ public class DemoPipe {
     }
 
     static class WriterThread implements Runnable {
-        private PipedWriter writer;
+        private final PipedWriter writer;
 
         public WriterThread(PipedWriter writer) {
             this.writer = writer;

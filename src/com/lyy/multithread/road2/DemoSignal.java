@@ -1,4 +1,4 @@
-package com.lyy.multithread;
+package com.lyy.multithread.road2;
 
 /*
 需求：线程A输出0，然后线程B输出1，以此类推
