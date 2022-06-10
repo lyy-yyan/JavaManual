@@ -1,8 +1,8 @@
-package com.lyy.multithread;
+package com.lyy.multithread.road2;
 
 public class DemoThreadLocal {
     static class ThreadA implements Runnable {
-        private ThreadLocal<String> threadLocal;
+        private final ThreadLocal<String> threadLocal;
 
         public ThreadA(ThreadLocal<String> threadLocal) {
             this.threadLocal = threadLocal;
@@ -21,7 +21,7 @@ public class DemoThreadLocal {
     }
 
     static class ThreadB implements Runnable {
-        private ThreadLocal<String> threadLocal;
+        private final ThreadLocal<String> threadLocal;
 
         public ThreadB(ThreadLocal<String> threadLocal) {
             this.threadLocal = threadLocal;

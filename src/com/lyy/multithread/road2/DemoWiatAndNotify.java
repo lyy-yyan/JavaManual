@@ -1,7 +1,7 @@
-package com.lyy.multithread;
+package com.lyy.multithread.road2;
 
 public class DemoWiatAndNotify {
-    private static Object lock = new Object();
+    private static final Object lock = new Object();
 
     static class ThreadA implements Runnable {
         @Override

@@ -1,7 +1,6 @@
 package com.test;
 
 import org.junit.Test;
-import com.test.MethodJunit;
 
 import static junit.framework.TestCase.assertEquals;
 
@@ -31,4 +30,23 @@ public class TestJunit {
 
     @Test
     public void testDivision(){ assertEquals(6, new MethodJunit().division(6, 1));}
+}
+
+class MethodJunit {
+
+    public int add(int a, int b) {
+        return a + b;
+    }
+
+    public int subtract(int a, int b) {
+        return a - b;
+    }
+
+    public int multiply(int a, int b) {
+        return a * b;
+    }
+
+    public int division(int a, int b) {
+        return a / b;
+    }
 }

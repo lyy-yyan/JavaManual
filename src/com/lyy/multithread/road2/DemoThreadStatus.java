@@ -1,4 +1,4 @@
-package com.lyy.multithread;
+package com.lyy.multithread.road2;
 
 public class DemoThreadStatus {
     public static void main(String[] args) throws InterruptedException {
