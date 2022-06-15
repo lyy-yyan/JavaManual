@@ -1,8 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="faf99856-f5b0-48ed-9636-30c9638085fc" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="faf99856-f5b0-48ed-9636-30c9638085fc" name="Default Changelist" comment="Default Changelist">
+      <change afterPath="$PROJECT_DIR$/src/com/lyy/exercise/offer/P016/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/lyy/exercise/offer/P016/answer.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/_2022_4_28_14_56___Default_Changelist_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/_2022_4_28_14_57___Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/_2022_4_28_14_57___Default_Changelist_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/_2022_4_28_15_01___Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/_2022_4_28_15_01___Default_Changelist_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/在进行更新之前于_2022_4_28_14_56_取消提交了变更_[Default_Changelist]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +53,9 @@
       </set>
     </option>
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
   </component>
@@ -56,35 +69,24 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "last_opened_file_path": "D:/lyy_Project/src/com/lyy/exercise/offer/P016",
     "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.lyy.book.base.testStream" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\lyy_Project\src\com\lyy\exercise\offer\P016" />
       <recent name="D:\lyy_Project\src\com\lyy\book\aha\chapterFive" />
       <recent name="D:\lyy_Project\src\com\lyy" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.lyy.book.base.testSerialization" />
     </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.lyy.book.base.testStream" />
-    </key>
   </component>
-  <component name="RunManager" selected="应用程序.Dfs1">
-    <configuration name="Dfs1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.lyy.book.aha.chapterOne.chapterFour.Dfs1" />
-      <module name="lyy_Project" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.lyy.book.aha.chapterOne.chapterFour.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.Solution.testMyPow">
     <configuration name="DfsFindShortestPath" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.lyy.book.aha.chapterFive.DfsFindShortestPath" />
       <module name="lyy_Project" />
@@ -137,6 +139,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Solution.testMyPow" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="lyy_Project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lyy.exercise.offer.P016.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.lyy.exercise.offer.P016" />
+      <option name="MAIN_CLASS_NAME" value="com.lyy.exercise.offer.P016.Solution" />
+      <option name="METHOD_NAME" value="testMyPow" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.Solution.testMyPow" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -150,6 +173,7 @@
       </list>
     </option>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -258,6 +282,11 @@
             </State>
           </value>
         </entry>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
       </map>
     </option>
   </component>
@@ -273,5 +302,13 @@
         <watch expression="step" language="JAVA" />
       </configuration>
     </watches-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/test$Solution_testHammingWeight.ic" NAME="Solution.testHammingWeight 覆盖结果" MODIFIED="1654697801584" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.lyy.exercise.offer.P015.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/test$PhaserDemo.ic" NAME="PhaserDemo 覆盖结果" MODIFIED="1653643362961" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.lyy.multithread.road2.*</FILTER>
+    </SUITE>
   </component>
 </project>
