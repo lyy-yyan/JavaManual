@@ -1,4 +1,4 @@
-package com.lyy.multithread.practical.CreateThread;
+package com.lyy.multithread.practical.chapterTwo;
 
 // 新建线程
 // Java是单继承的，继承也是一种资源，因此最好使用Runnable接口实现新建线程
