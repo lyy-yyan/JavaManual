@@ -1,5 +1,6 @@
 package com.lyy.multithread.road2;
 
+
 import org.jetbrains.annotations.NotNull;
 
 import java.util.Collection;
