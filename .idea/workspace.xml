@@ -86,13 +86,13 @@
       <recent name="com.lyy.book.base.testSerialization" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Solution.testMyPow">
-    <configuration name="DfsFindShortestPath" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.lyy.book.aha.chapterFive.DfsFindShortestPath" />
+  <component name="RunManager" selected="JUnit.Solution.testIsMatch">
+    <configuration name="SimpleWN" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lyy.multithread.practical.chapterTwo.SimpleWN" />
       <module name="lyy_Project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.lyy.book.aha.chapterFive.*" />
+          <option name="PATTERN" value="com.lyy.multithread.practical.chapterTwo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -100,12 +100,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HashMapTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.lyy.book.base.testHashMap.HashMapTest" />
+    <configuration name="Subset1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lyy.exercise.study.Subset1" />
       <module name="lyy_Project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.lyy.book.base.testHashMap.*" />
+          <option name="PATTERN" value="com.lyy.exercise.study.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -113,12 +113,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestDate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.lyy.book.base.testDate.TestDate" />
+    <configuration name="Subset2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lyy.exercise.study.Subset2" />
       <module name="lyy_Project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.lyy.book.base.testDate.*" />
+          <option name="PATTERN" value="com.lyy.exercise.study.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -126,30 +126,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestFunction" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.lyy.book.base.testStream.TestFunction" />
+    <configuration name="Solution.isMatch" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="lyy_Project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.lyy.book.base.testStream.*" />
+          <option name="PATTERN" value="com.lyy.exercise.offer.P019.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.lyy.exercise.offer.P019" />
+      <option name="MAIN_CLASS_NAME" value="com.lyy.exercise.offer.P019.Solution" />
+      <option name="METHOD_NAME" value="isMatch" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution.testMyPow" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Solution.testIsMatch" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="lyy_Project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.lyy.exercise.offer.P016.*" />
+          <option name="PATTERN" value="com.lyy.exercise.offer.P019.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.lyy.exercise.offer.P016" />
-      <option name="MAIN_CLASS_NAME" value="com.lyy.exercise.offer.P016.Solution" />
-      <option name="METHOD_NAME" value="testMyPow" />
+      <option name="PACKAGE_NAME" value="com.lyy.exercise.offer.P019" />
+      <option name="MAIN_CLASS_NAME" value="com.lyy.exercise.offer.P019.Solution" />
+      <option name="METHOD_NAME" value="testIsMatch" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -157,7 +160,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.Solution.testMyPow" />
+        <item itemvalue="JUnit.Solution.testIsMatch" />
+        <item itemvalue="JUnit.Solution.isMatch" />
+        <item itemvalue="应用程序.SimpleWN" />
+        <item itemvalue="应用程序.Subset2" />
+        <item itemvalue="应用程序.Subset1" />
       </list>
     </recent_temporary>
   </component>
