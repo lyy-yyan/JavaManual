@@ -21,9 +21,7 @@ public class Solution {
     }
 
     public boolean isMatch(String s, String p) {
-        flag = false;
-        matchOne(s, p, 0, 0);
-        return flag;
+        return matchOne(s, p, 0, 0);
 
         // 官方题解
 //        int m = s.length();
@@ -59,10 +57,13 @@ public class Solution {
     }
 
     // 个人思路
-    private boolean flag = false;
-    private char aChar = '.';
-    public void matchOne(String s, String p, int sNow, int pNow) {
-        if (flag) return;
-
+    public boolean matchOne(String s, String p, int sNow, int pNow) {
+        if (pNow == p.length()) return sNow == s.length();
+        boolean isMatchNow = sNow < s.length() && (p.charAt(pNow) == s.charAt(sNow) || p.charAt(pNow) == '.');
+        if (pNow+1 < p.length() && p.charAt(pNow+1) == '*') {
+            return (isMatchNow && matchOne(s, p, sNow+1, pNow)) || (matchOne(s, p, sNow, pNow+2));
+        } else {
+            return isMatchNow && matchOne(s, p, sNow+1, pNow+1);
+        }
     }
 }
