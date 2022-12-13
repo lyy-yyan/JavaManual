@@ -31,3 +31,9 @@ public enum State {
   - 线程被唤醒后，还要再次重新获得 obj 的监视器（再执行wait()方法执行前所持有的那个），顺利获得后才能继续执行
   - SimpleWN.java
   - wait()和 sleep()方法都可以让线程等待，除了 wait()可以被唤醒外，另一个主要区别是 wait()会释放目标对象的锁，而 sleep()不会释放任何资源
+- 挂起 suspend()
+  - 不推荐使用，因为 suspend()在导致线程暂停的同时，并不会去释放任何资源
+  - 如果 resume()操作意外地在 suspend()之前执行了，那么被挂起的线程之后也很难有机会被继续执行。而且此时线程状态是Runnable，影响对系统当前状态的判断
+- 继续执行 resume():与挂起操作相反
+> 使用 jstack [pid] 命令可以查看线程信息
+> 对于windows来说，jstack命令需要在jdk/bin下使用，pid在任务管理器的详细信息处可以查看

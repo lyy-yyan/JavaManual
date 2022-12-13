@@ -3,8 +3,6 @@ package com.lyy.book.aha.chapterEight;
 import java.util.Arrays;
 import java.util.Scanner;
 
-import static junit.framework.TestCase.assertEquals;
-
 /*
 测试样例：
 6 5
