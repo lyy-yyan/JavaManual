@@ -1,0 +1,15 @@
+// 图书优惠策略
+package book.discount;
+// 引入项目
+import com.lyy.entity.Order;
+
+dialect  "mvel"
+
+// 规则一：所购图书总价在100元以下的没有优惠
+rule "book_discount_1"
+    when
+        $order:Order( originalPrice < 100 ) // 模式匹配
+    then
+        $order.setRealPrice($order.getOriginalPrice());
+        System.out.println("没有优惠");
+end
